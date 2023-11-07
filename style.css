@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: azure;
+    background: url('https://plus.unsplash.com/premium_photo-1663838843854-8f9fc4d2a433?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') bottom no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: rgb(216, 60, 55);
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #000;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: brown;
+    padding: o 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(27, 64, 88);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+.news {
+    background-color: rgb(192, 212, 217);
+    padding: 50px 0 32px;
+}
+
+.news-news:nth-child(2n) {
+    background-color: rgb(122, 205, 250);
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(220, 161, 232);
+}
+
+article a {
+    color: rgb(13, 17, 20);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #612e4d;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(42, 58, 58);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+article .New::before {
+    content: 'New';
+    color: rgb(253, 104, 104);
+    font-style: italic;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 10px;
+}
+
+.copyright {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.copyright a {
+    color: black;
+    text-decoration: none;
+}
